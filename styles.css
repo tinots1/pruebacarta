@@ -1,91 +1,115 @@
 @font-face {
-    font-family: 'browsa';
-    src: url(assets/Browsa.ttf);
+  font-family: "browsa";
+  src: url(assets/Browsa.ttf);
 }
 @font-face {
-    font-family: 'k2d';
-    src: url(assets/K2D-Bold.ttf);
+  font-family: "k2d";
+  src: url(assets/K2D-Bold.ttf);
 }
 @media (max-width: 768px) {
-    *{
-        box-sizing: border-box;
-        padding: 0;
-        margin: 0;
-    }
-    body{
-        background-color: rgb(23, 23, 23);
-        /* background-image: url(assets/bg\ pizarra.jpg); */
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-    header{
-        margin-top: 30px;
-        display: flex;
-    }
-    .img-header{
-        width: 100%;
-        padding-left: 30px;
-    }
-    .firsth2{
-        margin-top: 25px;
-    }
-    h2{
-        color:goldenrod;
-        font-family: 'browsa';
-        letter-spacing: 2px;
-        font-size: 42px;
-        text-align: center;
-        padding-bottom: 15px;
-        margin-top: 100px;
-    }
-    p{
-        display: block;
-        font-size: 14px;
-        color: whitesmoke;
-        font-family: 'k2d';
-        letter-spacing: 1.5px;
-        margin-bottom: 4px;
-    }
-    span{
-        color: whitesmoke;
-        font-family: 'k2d';
-        font-size: 12px;
-        width: fit-content;
-    }
-    .sections{
-        padding-left: 25px;
-        padding-right: 25px;
-    }
-    .options{
-        border-bottom: 0.5px;
-        border-bottom-style: dashed;
-        border-bottom-color: whitesmoke;
-        margin-top: 20px;
-        display: flex;
-        justify-content: space-between;
-    }
-    .name{
-        display: flex;
-        flex-wrap: wrap;
-        width: 80%;
-        flex-direction: column;
-    }
-    .price{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        text-align: right;
-        width: 20%;
-    }
-    .aclaracion{
-        display: flex;
-        justify-content: center;
-        padding-top: 5px;
-        padding-bottom: 10px;
-        flex-wrap: wrap;
-        width: 100%;
-    }
-    #finalsection{
-        margin-bottom: 90px;
-    }
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  body {
+    background-color: rgb(23, 23, 23);
+    /* background-image: url(assets/bg\ pizarra.jpg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  header {
+    margin-top: 30px;
+    display: flex;
+  }
+  .img-header {
+    width: 100%;
+    padding-left: 30px;
+  }
+  .firsth2 {
+    margin-top: 25px;
+  }
+  h2 {
+    color: goldenrod;
+    font-family: "browsa";
+    letter-spacing: 2px;
+    font-size: 42px;
+    text-align: center;
+    padding-bottom: 15px;
+    margin-top: 100px;
+  }
+  p {
+    display: block;
+    font-size: 14px;
+    color: whitesmoke;
+    font-family: "k2d";
+    letter-spacing: 1.5px;
+    margin-bottom: 4px;
+  }
+  span {
+    color: whitesmoke;
+    font-family: "k2d";
+    font-size: 12px;
+    width: fit-content;
+  }
+  .sections {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .options {
+    border-bottom: 0.5px;
+    border-bottom-style: dashed;
+    border-bottom-color: whitesmoke;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .name {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    flex-direction: column;
+  }
+  .price {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: right;
+    width: 20%;
+  }
+  .aclaracion {
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  #finalsection {
+    margin-bottom: 90px;
+  }
+  .cara-tragos {
+    position: absolute;
+    opacity: 30%;
+    width: 30%;
+  }
+  .div-cara-bebidas {
+    display: flex;
+    justify-content: end;
+  }
+  .cara-bebidas {
+    position: absolute;
+    opacity: 30%;
+    width: 20%;
+    transform: scaleX(-1);
+  }
+  .div-cara-minutas {
+    position: absolute;
+    padding-top: 200px;
+    opacity: 30%;
+  }
+  .cara-minutas {
+    width: 115%;
+  }
 }
+
